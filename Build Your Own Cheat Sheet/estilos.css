@@ -1,0 +1,40 @@
+/*body style*/
+body{
+  background-color: #ebc1e1;
+  opacity: 0.9;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, gray 10px ), repeating-linear-gradient( #473f3f55, #8a7272 );
+  font-family: Arial, Helvetica, sans-serif;
+} /*You can find this pattern and more in https://www.magicpattern.design/tools/css-backgrounds */
+
+/*table styles*/
+thead th{
+  font-size: 20px;
+  font-weight: 900;
+}
+
+td, th {
+  background-color:whitesmoke;
+}
+
+/*span styles*/
+.uppercase{
+  text-transform: uppercase;
+}
+
+.capitalized{
+  text-transform: capitalize;
+}
+
+/*other styles*/
+ h1{
+  color: white;
+  border-color: black;
+  text-align: center;
+  text-shadow: 4px 4px 0 black;
+}
+
+a:hover{
+  font-weight: 700;
+  color: rgb(12, 99, 12);
+}
+

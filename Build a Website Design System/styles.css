@@ -1,0 +1,171 @@
+/*General styling*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-family: Caprasimo, sans-serif;
+  font-size: 45px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px #8f8d8d;
+}
+
+section {
+  border: solid 3px gray;
+  margin: 10px auto;
+}
+
+/*Colors section*/
+.colors {
+  background-image: url('Resources/background gradients/magicpattern-mesh-gradient-3.png');
+}/*This awsome gradients could be made in https://www.magicpattern.design/tools/mesh-gradients*/
+
+.colors ul li {
+  display: inline-block;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+.colors ul {
+  text-align: center;
+}
+
+.colors ul li {
+  border: solid 1px black;
+}
+
+.color1 p,
+.color2 p,
+.color3 p {
+  line-height: 50px;
+}
+
+.color1 {
+  background-color: #b2dbf5;
+  height: 150px;
+  width: 175px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.color2 {
+  background-color: #d2b4de;
+  height: 150px;
+  width: 175px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.color3 {
+  background-color: #f7b2e5;
+  height: 150px;
+  width: 175px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*Fonts section*/
+.fonts {
+  background-image: url('Resources/background gradients/magicpattern-mesh-gradient-1.png');
+}
+
+.fonts ul{
+  text-align: center;
+  overflow: scroll;
+}
+
+.fonts li.stylish, .fonts li.openSans {
+  display: inline-block;
+  list-style-type: none;
+  vertical-align:middle;
+  margin: 20px 20px;
+}
+
+.fonts li.caprasimo{
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: sub;
+  margin: 20px 20px;
+}
+
+
+.fonts ul li {
+  border: solid 1px black;
+}
+
+.stylish {
+  font-family: 'Stylish', sans-serif;
+  font-size: 35px;
+  background-color: #ffffff;
+  height: 300px;
+  width: 600px;
+  text-align: center;
+}
+
+.openSans {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  background-color: #ffffff;
+  height: 300px;
+  width: 650px;
+  text-align: center;
+}
+
+.caprasimo {
+  font-family: 'Caprasimo', cursive;
+  font-size: 35px;
+  background-color: #ffffff;
+  height: 300px;
+  width: 750px;
+  text-align: center;
+}
+
+.textExample {
+  font-size: 25px;
+  line-height: 15px;
+}
+
+/*Text styles section*/
+.textStyles {
+  background-image: url('Resources/background gradients/magicpattern-mesh-gradient-2.png');
+}
+
+.textStyles ul{
+  text-align: center;
+  font-family: 'Open Sans', serif;
+  font-size: 20px;
+}
+
+.h1{
+  font-family: Caprasimo, cursive;
+  font-size: 35px;
+}
+
+.p{
+  font-family: 'Open Sans', serif;
+  font-size: 30px;
+}
+
+.anchor{
+  font-family: Stylish, Arial;
+  font-size: 23px;
+}
+
+.anchor:hover{
+display: inline-block;
+  color: #f7b2e5;
+  background-color: black;
+  border-radius: 10px;
+}
